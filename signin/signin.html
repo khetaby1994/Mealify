@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signin.css">
+</head>
+<body>
+    <section class="container mt-5 rounded-2">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <picture class="w-50 text-center">
+                <img src="../images/favicon.png" class="w-25" alt="">
+                <h1 class="fw-bolder">Mealify<span class="text-danger">.</span></h1>
+            </picture>
+            <div id="dataHelp" class=" d-none form-text"><p class="text-danger p-0 m-0 fw-bold">Invalid Email or Password</p></div>
+
+        </div>
+        <div class="d-flex justify-content-center">
+            <form class="w-50">
+                <div class="mb-3">
+                  <label for="signupEmail" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="signupEmail">
+                </div>
+                <div class="mb-3">
+                  <label for="signupPassword" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="signupPassword">
+                </div>
+
+            </form>
+
+        </div>
+        <div class="text-center mt-4">
+            <button class="p-2 text-decoration-none text-dark rounded-3 px-5 fw-bold btn-mealify border-0" id="submit">Sign in</button>
+        </div>
+        <div class="text-center mt-4">
+            <a href="../signup/signup.html">if you don't have an Account, sign up here</a>
+        </div>
+    </section>
+
+    <script src="./js/signin.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

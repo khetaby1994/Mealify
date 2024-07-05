@@ -1,0 +1,103 @@
+@media (max-width: 992px) {
+    .navlogin {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .togglerlogin {
+        display: none;
+    }
+}
+.fav-w{
+    width: 3rem;
+}
+.nav-item{
+    position: relative;
+    margin: 0 1rem;
+    font-weight: 600;
+}
+.nav-item::before{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .5s;
+}
+.nav-item:hover{
+    font-weight: 800;
+
+}
+.nav-item:hover::before{
+    width: 100%;
+}
+.gray-backgr{
+    background-color: #eee;
+}
+.now{
+    background-image: linear-gradient(to right, #a10000, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.amatic-font{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 6rem;
+}
+.login-btn{
+    text-decoration: none;
+    background-color: #ce1212;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 0px 100vh 100vh;
+}
+.login-btn:hover{
+    background-color: red;
+
+}
+.hero-img{
+    box-sizing: border-box;
+}
+.w-20{
+    width: 20%;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+.card{
+    height: 350px;
+}
+.btn-mealify{
+    background: #ef5261;   
+}
+.my-hero{
+    margin-top: 6.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+@media (max-width: 992px) {
+    .recipe-font {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .recipe-btn{
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+    }
+    .hero-y{
+        height: auto !important;
+    }
+    .w-25 {
+        width: 60% !important;
+    }
+    .amatic-font {
+        font-weight: 600;
+        font-size: 3rem;
+    }
+}
